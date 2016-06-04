@@ -1,19 +1,20 @@
 {
-  "name": "pn-locale",
+  "name": "pn-ng-locale",
   "version": "1.0.0-rc1-final",
-  "description": "AngularJS directive that supports localization",
+  "description": "PhantomNet AngularJS directive that supports localization",
   "main": "./dist/pn-locale.js",
   "authors": [
     "Minh Nguyen <mnguyen284@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
+    "PhantomNet",
     "AngularJS"
   ],
   "moduleType": [
     "globals"
   ],
-  "homepage": "https://github.com/green-grass/pn-locale",
+  "homepage": "https://github.com/green-grass/pn-ng-locale",
   "ignore": [
     "**/.*",
     "node_modules",

@@ -1,0 +1,14 @@
+{
+  "name": "phantomnet-locale",
+  "description": "AngularJS directive that supports localization",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/green-grass/phantomnet-locale.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "1.2.0",
+    "rimraf": "2.2.8"
+  }
+}

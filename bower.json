@@ -1,6 +1,6 @@
 {
   "name": "pn-ng-locale",
-  "version": "1.0.0-rc1-final",
+  "version": "1.0.0-rc2-1",
   "description": "PhantomNet AngularJS directive that supports localization",
   "main": "./dist/pn-locale.js",
   "authors": [

@@ -18,7 +18,8 @@
                                     return function (params) {
                                         var result = resource;
                                         for (var paramKey in params) {
-                                            result = result.replace('{' + paramKey + '}', params[paramKey]);
+                                            result = result.replace('{' + paramKey + '}',
+                                                params[paramKey] !== undefined && params[paramKey] !== null ? params[paramKey] : '');
                                         }
                                         return result;
                                     };

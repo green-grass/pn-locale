@@ -1,9 +1,9 @@
 {
-  "name": "phantomnet-locale",
-  "description": "AngularJS directive that supports localization",
+  "name": "pn-ng-locale",
+  "description": "PhantomNet AngularJS directive that supports localization",
   "repository": {
     "type": "git",
-    "url": "https://github.com/green-grass/phantomnet-locale.git"
+    "url": "https://github.com/green-grass/pn-ng-locale.git"
   },
   "license": "MIT",
   "devDependencies": {

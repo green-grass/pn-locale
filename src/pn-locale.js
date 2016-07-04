@@ -14,7 +14,8 @@
                         for (var name in resources) {
                             var resource = resources[name];
                             if (typeof resource === 'string' && resource.indexOf('{') !== -1) {
-                                resources['format' + name] = (function (resource) {
+                                var methodName = 'format' + name.substr(0, 1).toUpperCase() + name.substr(1);
+                                resources[methodName] = (function (resource) {
                                     return function (params) {
                                         var result = resource;
                                         for (var paramKey in params) {
